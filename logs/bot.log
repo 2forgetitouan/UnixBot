@@ -1,0 +1,591 @@
+{"time":"2025-09-13T08:55:45.223Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-13T08:56:13.340Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-13T08:57:08.884Z","type":"COMMAND","message":"Commande \"down\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+down ping"}
+{"time":"2025-09-13T08:57:08.908Z","type":"SUCCESS","message":"Commande \"down\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T09:11:23.262Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+help"}
+{"time":"2025-09-13T09:11:23.741Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T09:11:35.207Z","type":"COMMAND","message":"Commande \"qr\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+qr test"}
+{"time":"2025-09-13T09:11:36.417Z","type":"SUCCESS","message":"Commande \"qr\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T09:11:48.822Z","type":"COMMAND","message":"Commande \"qr\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+qr"}
+{"time":"2025-09-13T09:11:49.251Z","type":"SUCCESS","message":"Commande \"qr\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T09:12:06.279Z","type":"COMMAND","message":"Commande \"qr\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+qr https://youtube.com"}
+{"time":"2025-09-13T09:12:07.375Z","type":"SUCCESS","message":"Commande \"qr\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T09:14:00.090Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+help"}
+{"time":"2025-09-13T09:14:00.561Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T09:14:29.752Z","type":"COMMAND","message":"Commande \"qr\" exécutée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+qr bonjour."}
+{"time":"2025-09-13T09:14:30.476Z","type":"SUCCESS","message":"Commande \"qr\" terminée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T09:14:46.847Z","type":"COMMAND","message":"Commande \"down\" exécutée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+down qr"}
+{"time":"2025-09-13T09:14:46.862Z","type":"SUCCESS","message":"Commande \"down\" terminée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T09:14:56.284Z","type":"COMMAND","message":"Commande \"up\" exécutée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+up qr"}
+{"time":"2025-09-13T09:16:32.937Z","type":"COMMAND","message":"Commande \"down\" exécutée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+down qr"}
+{"time":"2025-09-13T09:16:47.536Z","type":"COMMAND","message":"Commande \"owner\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+owner <@1216080180695531711>"}
+{"time":"2025-09-13T09:16:47.550Z","type":"SUCCESS","message":"Commande \"owner\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T09:16:59.401Z","type":"COMMAND","message":"Commande \"down\" exécutée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+down qr"}
+{"time":"2025-09-13T09:16:59.964Z","type":"SUCCESS","message":"Commande \"down\" terminée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T09:17:06.394Z","type":"COMMAND","message":"Commande \"up\" exécutée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+up qr"}
+{"time":"2025-09-13T09:17:06.454Z","type":"SUCCESS","message":"Commande \"up\" terminée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T09:17:16.301Z","type":"COMMAND","message":"Commande \"owner\" exécutée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+owner test"}
+{"time":"2025-09-13T09:17:22.455Z","type":"COMMAND","message":"Commande \"unowner\" exécutée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+unowner test"}
+{"time":"2025-09-13T09:17:29.167Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+help"}
+{"time":"2025-09-13T09:17:29.584Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T10:02:14.544Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+help"}
+{"time":"2025-09-13T10:02:15.221Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T10:02:37.291Z","type":"COMMAND","message":"Commande \"qr\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+qr test"}
+{"time":"2025-09-13T10:02:39.167Z","type":"SUCCESS","message":"Commande \"qr\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T10:11:26.988Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/help "}
+{"time":"2025-09-13T10:11:27.521Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T10:12:08.770Z","type":"COMMAND","message":"Commande \"qr\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/qr mdr"}
+{"time":"2025-09-13T10:12:09.829Z","type":"SUCCESS","message":"Commande \"qr\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T10:42:09.924Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/help "}
+{"time":"2025-09-13T10:42:10.530Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T11:25:25.930Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-13T11:25:31.597Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-13T11:25:32.293Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-13T11:25:33.127Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-13T11:25:33.718Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-13T11:25:34.820Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-13T11:25:35.484Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-13T11:25:36.397Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-13T11:25:37.737Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-13T11:27:44.004Z","type":"COMMAND","message":"Commande \"owner\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/owner 1216080180695531711"}
+{"time":"2025-09-13T11:27:44.031Z","type":"SUCCESS","message":"Commande \"owner\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T11:28:01.948Z","type":"COMMAND","message":"Commande \"unowner\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/unowner 1216080180695531711"}
+{"time":"2025-09-13T11:28:01.964Z","type":"SUCCESS","message":"Commande \"unowner\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T12:52:29.087Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"salehistoiree","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/help "}
+{"time":"2025-09-13T12:52:29.732Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"salehistoiree","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-13T12:52:59.950Z","type":"COMMAND","message":"Commande \"qr\" exécutée","user":"salehistoiree","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/qr mangemesboules"}
+{"time":"2025-09-13T12:53:01.018Z","type":"SUCCESS","message":"Commande \"qr\" terminée","user":"salehistoiree","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-15T17:28:24.053Z","type":"COMMAND","message":"Commande \"up\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/up ping"}
+{"time":"2025-09-15T17:28:24.533Z","type":"SUCCESS","message":"Commande \"up\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-15T17:28:43.060Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/help "}
+{"time":"2025-09-15T17:28:43.449Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-16T18:35:27.937Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"salehistoiree","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/help "}
+{"time":"2025-09-16T18:35:28.419Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"salehistoiree","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-16T18:36:04.478Z","type":"COMMAND","message":"Commande \"owner\" exécutée","user":"salehistoiree","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/owner 1411376960667517088"}
+{"time":"2025-09-20T07:58:55.771Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/help "}
+{"time":"2025-09-20T07:58:56.444Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T13:46:03.042Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T13:46:11.843Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T13:58:19.371Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T13:58:24.630Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:00:37.001Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:00:41.969Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:00:44.246Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:00:45.120Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:03:13.273Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:03:33.490Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:03:36.090Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:03:38.230Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:03:45.592Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:05:25.564Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:05:29.336Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:05:30.653Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:05:32.887Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:05:33.561Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:05:37.681Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:05:41.659Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:09:16.744Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/help "}
+{"time":"2025-09-27T14:09:17.335Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T14:17:22.639Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/help "}
+{"time":"2025-09-27T14:17:23.062Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T14:21:57.683Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:21:58.954Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T14:22:27.288Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T14:22:28.154Z","type":"ERROR","message":"Erreur sur \"ping\": EmbedBuilder is not defined","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T14:27:50.878Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T14:27:51.925Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T14:28:08.710Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T14:28:09.852Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T14:29:27.422Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T14:29:28.418Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T14:29:38.068Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T14:29:39.023Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T14:29:44.610Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T14:29:45.674Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T14:47:42.043Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/purge 3"}
+{"time":"2025-09-27T14:47:46.110Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T14:48:25.423Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"┃💥・𝗦𝗽𝗮𝗺𝘀","content":"/purge 3"}
+{"time":"2025-09-27T14:48:26.707Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"┃💥・𝗦𝗽𝗮𝗺𝘀"}
+{"time":"2025-09-27T14:49:44.075Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"_user_not_found_error_404_","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/purge 2"}
+{"time":"2025-09-27T14:51:09.947Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/purge 2"}
+{"time":"2025-09-27T14:51:16.709Z","type":"ERROR","message":"Erreur sur \"purge\": Unknown interaction","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T14:53:23.481Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/purge 2"}
+{"time":"2025-09-27T14:53:27.510Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T16:32:29.261Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T16:32:31.588Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T16:34:34.705Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T16:34:36.999Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T16:44:58.376Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T16:45:02.316Z","type":"ERROR","message":"Erreur sur \"ping\": Unknown interaction","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T16:48:30.778Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T16:48:36.275Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T16:49:00.767Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T16:49:01.980Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T16:49:21.288Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T16:49:22.336Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T16:49:38.330Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T16:49:39.596Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T16:50:00.574Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/purge 5"}
+{"time":"2025-09-27T16:50:03.586Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T16:50:16.460Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T16:50:19.283Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T16:57:00.886Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/ping "}
+{"time":"2025-09-27T16:57:03.454Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-09-27T19:51:41.958Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T19:51:43.803Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T19:51:45.872Z","type":"MOVE","message":"Commande \"purge\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T19:51:46.773Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T19:51:47.749Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T19:51:49.230Z","type":"MOVE","message":"Commande \"purge\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:100.82.140.56"}
+{"time":"2025-09-27T19:52:49.243Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"/purge 1"}
+{"time":"2025-09-27T19:52:51.918Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-12-15T13:23:19.284Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+help"}
+{"time":"2025-12-15T13:23:19.855Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-12-15T13:23:38.212Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+ping"}
+{"time":"2025-12-15T13:23:39.151Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-12-15T13:23:43.388Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+ping"}
+{"time":"2025-12-15T13:23:44.285Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-12-15T13:23:57.157Z","type":"COMMAND","message":"Commande \"qr\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+qr bonjour"}
+{"time":"2025-12-15T13:23:58.304Z","type":"SUCCESS","message":"Commande \"qr\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-12-15T13:34:59.965Z","type":"COMMAND","message":"Commande \"ping\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+ping"}
+{"time":"2025-12-15T13:35:00.918Z","type":"SUCCESS","message":"Commande \"ping\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-12-15T13:56:14.362Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T13:56:15.581Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T13:57:08.131Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+help"}
+{"time":"2025-12-15T13:57:08.614Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-12-15T13:57:14.356Z","type":"SUCCESS","message":"Bot démarré depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T13:57:20.875Z","type":"INFO","message":"Arrêt du bot Discord..."}
+{"time":"2025-12-15T13:57:20.876Z","type":"SUCCESS","message":"Bot Discord déconnecté"}
+{"time":"2025-12-15T13:57:20.878Z","type":"SUCCESS","message":"Bot arrêté depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T13:57:33.028Z","type":"INFO","message":"Redémarrage du bot Discord..."}
+{"time":"2025-12-15T13:57:34.030Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T13:57:34.821Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T13:57:34.821Z","type":"SUCCESS","message":"Bot redémarré depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:11:01.021Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T14:11:03.574Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T14:11:22.588Z","type":"INFO","message":"Redémarrage du bot Discord..."}
+{"time":"2025-12-15T14:11:22.588Z","type":"INFO","message":"Arrêt du bot Discord..."}
+{"time":"2025-12-15T14:11:22.589Z","type":"SUCCESS","message":"Bot Discord déconnecté"}
+{"time":"2025-12-15T14:11:23.592Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T14:11:24.197Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T14:11:24.198Z","type":"SUCCESS","message":"Bot redémarré depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:11:42.232Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:11:56.629Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:12:13.237Z","type":"INFO","message":"Arrêt du bot Discord..."}
+{"time":"2025-12-15T14:12:13.237Z","type":"SUCCESS","message":"Bot Discord déconnecté"}
+{"time":"2025-12-15T14:12:13.237Z","type":"SUCCESS","message":"Bot arrêté depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:12:38.879Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:12:41.914Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:20:54.259Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T14:20:55.350Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T14:20:59.668Z","type":"MOVE","message":"Commande \"purge\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:21:04.223Z","type":"MOVE","message":"Commande \"purge\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:21:05.958Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:21:07.958Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:21:11.373Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:21:12.306Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:22:20.252Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T14:22:21.353Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T14:22:24.506Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:22:26.252Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:22:27.490Z","type":"MOVE","message":"Commande \"purge\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:22:29.609Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:22:32.474Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"upcmd\" vers \"downcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:22:33.974Z","type":"MOVE","message":"Commande \"purge\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:22:35.458Z","type":"MOVE","message":"Commande \"ping\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:22:36.957Z","type":"MOVE","message":"Commande \"qr\" déplacée de \"downcmd\" vers \"upcmd\"","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T14:35:50.182Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T14:35:51.283Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T14:36:19.640Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+help"}
+{"time":"2025-12-15T14:36:20.206Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-12-15T14:37:29.515Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway Test 1 1"}
+{"time":"2025-12-15T14:37:30.846Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T14:38:43.274Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway Test 0.1 1"}
+{"time":"2025-12-15T14:38:43.736Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T14:39:02.222Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway Test 1 0.1"}
+{"time":"2025-12-15T14:39:04.729Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T14:57:59.538Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T14:58:00.942Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T14:58:30.151Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway Test 1 0.01"}
+{"time":"2025-12-15T14:58:30.991Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T14:59:35.594Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway Test 1 0.05"}
+{"time":"2025-12-15T14:59:36.386Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T15:00:40.397Z","type":"DELETE","message":"Giveaway \"Test\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T15:00:43.894Z","type":"DELETE","message":"Giveaway \"Test\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T15:16:22.277Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T15:16:23.516Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T15:17:54.284Z","type":"DELETE","message":"Giveaway \"Test\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T15:18:01.917Z","type":"DELETE","message":"Giveaway \"Test\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T15:20:25.738Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway Test 1 0.1"}
+{"time":"2025-12-15T15:20:26.640Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T15:22:44.933Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway Test 1 0.1"}
+{"time":"2025-12-15T15:22:45.679Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T15:23:17.949Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway Test2 1 0.1"}
+{"time":"2025-12-15T15:23:19.146Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T15:23:41.008Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway Test 1 0.10"}
+{"time":"2025-12-15T15:23:41.937Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T15:24:06.545Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway Test 1 0.3"}
+{"time":"2025-12-15T15:24:08.315Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T15:24:21.951Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway Test 1 0.5"}
+{"time":"2025-12-15T15:24:22.767Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T15:24:38.472Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway Test 1 1"}
+{"time":"2025-12-15T15:24:39.304Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T15:34:08.428Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T15:34:09.993Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T15:34:48.608Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway \"Test\" 1 5m"}
+{"time":"2025-12-15T15:34:50.181Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T15:38:46.785Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T15:38:47.832Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T15:39:19.537Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T15:39:21.006Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T15:40:16.283Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway \"Test3\" 1 5m"}
+{"time":"2025-12-15T15:40:17.528Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T15:43:07.821Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway \"Nitro Boost 3 mois\" 1 5m"}
+{"time":"2025-12-15T15:43:08.693Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T15:43:38.009Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway \"Nitro Boost 3mois\" 1 5m"}
+{"time":"2025-12-15T15:43:38.809Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T15:44:06.712Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway \"Nitro Boost\" 1 5m"}
+{"time":"2025-12-15T15:44:07.492Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T15:50:49.034Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T15:50:50.952Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T15:51:12.607Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T15:51:13.620Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T15:52:59.528Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T15:53:00.909Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T15:54:11.558Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway \"Nitro Boost 3 Mois\" 1 3m"}
+{"time":"2025-12-15T15:54:12.611Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T16:58:10.318Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T16:58:11.560Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T16:59:04.967Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway \"Nitro Test\" 1 3m"}
+{"time":"2025-12-15T16:59:06.415Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T17:02:47.206Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"_user_not_found_error_404_","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway \"Nitro Test 2\" 1 3m"}
+{"time":"2025-12-15T17:03:08.883Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway \"Nitro Test 2\" 1 3m"}
+{"time":"2025-12-15T17:03:10.276Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T17:05:49.333Z","type":"DELETE","message":"Giveaway \"Nitro Test\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T17:10:43.785Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T17:10:44.965Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T17:10:54.006Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway \"Nitro Test 2\" 1 1m"}
+{"time":"2025-12-15T17:10:55.097Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T17:13:58.303Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway \"Nitro Test 2\" 1 3m"}
+{"time":"2025-12-15T17:13:59.556Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T17:25:55.600Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T17:25:56.744Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T17:26:44.000Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T17:26:45.190Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T17:27:28.413Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T17:27:29.585Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T17:47:28.819Z","type":"DELETE","message":"Giveaway \"Nitro Test 2\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T17:48:48.729Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway \"TestNitro 5\" 1 2m"}
+{"time":"2025-12-15T17:48:49.925Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T18:04:45.063Z","type":"DELETE","message":"Giveaway \"Nitro Test 2\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-15T18:06:04.481Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway Testgbufgvufe 1 2m"}
+{"time":"2025-12-15T18:06:05.494Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T18:50:47.216Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-15T18:50:48.334Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-15T18:51:02.031Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+help"}
+{"time":"2025-12-15T18:51:02.673Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-12-15T18:51:13.672Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+help ping"}
+{"time":"2025-12-15T18:51:14.439Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-12-15T18:51:30.521Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+help giveaway"}
+{"time":"2025-12-15T18:51:31.137Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-12-15T19:02:55.655Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+help giveaway"}
+{"time":"2025-12-15T19:02:56.384Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-12-15T19:03:20.462Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁","content":"+help"}
+{"time":"2025-12-15T19:03:20.953Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"┃🤖・𝗖𝗺𝗱-𝗕𝗼𝘁"}
+{"time":"2025-12-15T19:04:06.851Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+giveaway TestBeaucoup 1 2m"}
+{"time":"2025-12-15T19:04:07.927Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-15T19:06:15.953Z","type":"COMMAND","message":"Commande \"reroll\" exécutée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚","content":"+reroll"}
+{"time":"2025-12-15T19:06:17.317Z","type":"SUCCESS","message":"Commande \"reroll\" terminée","user":"deleted_user_562","channel":"⛔・𝙎𝙩𝙖𝙛𝙛-𝙋𝙧𝙞𝙫𝙖𝙩𝙚"}
+{"time":"2025-12-17T12:00:58.699Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T12:00:59.799Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T12:03:40.940Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help"}
+{"time":"2025-12-17T12:03:41.510Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T12:05:14.933Z","type":"DELETE","message":"Giveaway \"Nitro Test 2\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T12:05:18.219Z","type":"DELETE","message":"Giveaway \"TestNitro 5\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T12:05:20.753Z","type":"DELETE","message":"Giveaway \"TestBeaucoup\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T12:08:10.377Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"général","content":"+giveaway serveurcool 1 10m"}
+{"time":"2025-12-17T12:08:11.554Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T12:08:35.137Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T12:08:36.331Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T12:13:23.701Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T12:13:24.830Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T12:14:11.961Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"général","content":"+giveaway serveurcool2 1 2m"}
+{"time":"2025-12-17T12:14:12.720Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T12:16:43.362Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T12:16:44.518Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T12:17:19.706Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"général","content":"+giveaway Rien 1 10min"}
+{"time":"2025-12-17T12:17:20.537Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T12:17:41.598Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"général","content":"+giveaway Test 1 1m"}
+{"time":"2025-12-17T12:17:42.634Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T12:17:56.255Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T12:17:57.339Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T12:18:06.201Z","type":"DELETE","message":"Giveaway \"Test\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T12:18:14.991Z","type":"DELETE","message":"Giveaway \"Nitro Test 2\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T12:18:17.298Z","type":"DELETE","message":"Giveaway \"serveurcool\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T12:18:19.221Z","type":"DELETE","message":"Giveaway \"TestNitro 5\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T12:18:39.756Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"général","content":"+giveaway rien 1 5m"}
+{"time":"2025-12-17T12:18:41.143Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:04:05.239Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T13:04:06.548Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T13:04:48.794Z","type":"DELETE","message":"Giveaway \"Salut\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:04:53.316Z","type":"DELETE","message":"Giveaway \"serveurcool\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:04:57.181Z","type":"DELETE","message":"Giveaway \"TestNitro 5\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:04:59.466Z","type":"DELETE","message":"Giveaway \"Nitro Test 2\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:06:22.474Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"général","content":"+giveaway serveurcoolTest 1 10m"}
+{"time":"2025-12-17T13:06:23.842Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:07:35.218Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T13:07:37.379Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T13:12:36.471Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T13:12:37.666Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T13:12:47.350Z","type":"DELETE","message":"Giveaway \"Salut\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:12:50.616Z","type":"DELETE","message":"Giveaway \"TestNitro 5\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:12:52.820Z","type":"DELETE","message":"Giveaway \"Nitro Test 2\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:12:55.599Z","type":"DELETE","message":"Giveaway \"serveurcoolTest\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:12:58.917Z","type":"UPDATE","message":"Giveaway \"serveurcool\" mis à jour","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:13:33.653Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"général","content":"+giveaway test(encore) 1 10m"}
+{"time":"2025-12-17T13:13:34.945Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:14:14.331Z","type":"UPDATE","message":"Giveaway \"test(encore)\" mis à jour","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:14:25.980Z","type":"DELETE","message":"Giveaway \"test(encore)\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:14:50.059Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"général","content":"+giveaway testencorebeacuoupouijesais 1 10m"}
+{"time":"2025-12-17T13:14:52.180Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:15:42.587Z","type":"UPDATE","message":"Giveaway \"testencorebeacuoupouijesais\" mis à jour","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:16:01.883Z","type":"UPDATE","message":"Giveaway \"Giveaway modifier test\" mis à jour","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:22:36.276Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T13:22:37.458Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T13:24:11.697Z","type":"DELETE","message":"Giveaway \"Giveaway modifier test\" annulé","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:24:18.013Z","type":"INFO","message":"Arrêt du bot Discord..."}
+{"time":"2025-12-17T13:24:18.014Z","type":"SUCCESS","message":"Bot Discord déconnecté"}
+{"time":"2025-12-17T13:24:18.015Z","type":"SUCCESS","message":"Bot arrêté depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:24:21.638Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T13:24:22.381Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T13:24:22.382Z","type":"SUCCESS","message":"Bot démarré depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:24:23.931Z","type":"INFO","message":"Redémarrage du bot Discord..."}
+{"time":"2025-12-17T13:24:23.932Z","type":"INFO","message":"Arrêt du bot Discord..."}
+{"time":"2025-12-17T13:24:23.932Z","type":"SUCCESS","message":"Bot Discord déconnecté"}
+{"time":"2025-12-17T13:24:24.934Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T13:24:28.588Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T13:24:28.588Z","type":"SUCCESS","message":"Bot redémarré depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:32:40.105Z","type":"COMMAND","message":"Commande \"giveaway\" exécutée","user":"deleted_user_562","channel":"général","content":"+giveaway testEENNCCOORREE 1 10m"}
+{"time":"2025-12-17T13:32:41.180Z","type":"SUCCESS","message":"Commande \"giveaway\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:33:06.962Z","type":"UPDATE","message":"Giveaway \"testEENNCCOORREE\" mis à jour","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:33:22.401Z","type":"UPDATE","message":"Giveaway \"2 em giveaway modifier\" mis à jour","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:33:39.899Z","type":"UPDATE","message":"Giveaway \"3 em giveaway modifier\" mis à jour","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:33:58.727Z","type":"UPDATE","message":"Giveaway \"3 em giveaway modifier\" mis à jour","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:35:18.858Z","type":"COMMAND","message":"Commande \"reroll\" exécutée","user":"deleted_user_562","channel":"général","content":"+reroll"}
+{"time":"2025-12-17T13:35:20.120Z","type":"SUCCESS","message":"Commande \"reroll\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:35:30.889Z","type":"COMMAND","message":"Commande \"reroll\" exécutée","user":"deleted_user_562","channel":"général","content":"+reroll"}
+{"time":"2025-12-17T13:35:32.054Z","type":"SUCCESS","message":"Commande \"reroll\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:38:20.764Z","type":"INFO","message":"Redémarrage du bot Discord..."}
+{"time":"2025-12-17T13:38:20.764Z","type":"INFO","message":"Arrêt du bot Discord..."}
+{"time":"2025-12-17T13:38:20.764Z","type":"SUCCESS","message":"Bot Discord déconnecté"}
+{"time":"2025-12-17T13:38:21.768Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T13:38:22.617Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T13:38:22.617Z","type":"SUCCESS","message":"Bot redémarré depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:38:33.310Z","type":"COMMAND","message":"Commande \"reroll\" exécutée","user":"deleted_user_562","channel":"général","content":"+reroll"}
+{"time":"2025-12-17T13:38:34.758Z","type":"SUCCESS","message":"Commande \"reroll\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:39:18.259Z","type":"COMMAND","message":"Commande \"reroll\" exécutée","user":"deleted_user_562","channel":"général","content":"+reroll"}
+{"time":"2025-12-17T13:39:19.400Z","type":"SUCCESS","message":"Commande \"reroll\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:39:22.275Z","type":"INFO","message":"Redémarrage du bot Discord..."}
+{"time":"2025-12-17T13:39:22.275Z","type":"INFO","message":"Arrêt du bot Discord..."}
+{"time":"2025-12-17T13:39:22.275Z","type":"SUCCESS","message":"Bot Discord déconnecté"}
+{"time":"2025-12-17T13:39:23.280Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T13:39:24.139Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T13:39:24.139Z","type":"SUCCESS","message":"Bot redémarré depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:39:30.043Z","type":"COMMAND","message":"Commande \"reroll\" exécutée","user":"deleted_user_562","channel":"général","content":"+reroll"}
+{"time":"2025-12-17T13:39:31.285Z","type":"SUCCESS","message":"Commande \"reroll\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:40:50.564Z","type":"INFO","message":"Redémarrage du bot Discord..."}
+{"time":"2025-12-17T13:40:50.564Z","type":"INFO","message":"Arrêt du bot Discord..."}
+{"time":"2025-12-17T13:40:50.565Z","type":"SUCCESS","message":"Bot Discord déconnecté"}
+{"time":"2025-12-17T13:40:51.567Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T13:40:52.615Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T13:40:52.615Z","type":"SUCCESS","message":"Bot redémarré depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:40:59.480Z","type":"COMMAND","message":"Commande \"reroll\" exécutée","user":"deleted_user_562","channel":"général","content":"+reroll"}
+{"time":"2025-12-17T13:41:00.784Z","type":"SUCCESS","message":"Commande \"reroll\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:41:14.835Z","type":"INFO","message":"Redémarrage du bot Discord..."}
+{"time":"2025-12-17T13:41:14.836Z","type":"INFO","message":"Arrêt du bot Discord..."}
+{"time":"2025-12-17T13:41:14.836Z","type":"SUCCESS","message":"Bot Discord déconnecté"}
+{"time":"2025-12-17T13:41:15.842Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T13:41:16.858Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T13:41:16.858Z","type":"SUCCESS","message":"Bot redémarré depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T13:41:21.297Z","type":"COMMAND","message":"Commande \"reroll\" exécutée","user":"deleted_user_562","channel":"général","content":"+reroll"}
+{"time":"2025-12-17T13:41:22.422Z","type":"SUCCESS","message":"Commande \"reroll\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:42:32.427Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"général","content":"+purge 10"}
+{"time":"2025-12-17T13:42:32.822Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:42:39.603Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"général","content":"+purge 1"}
+{"time":"2025-12-17T13:42:40.051Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:42:49.267Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"général","content":"+purge 5"}
+{"time":"2025-12-17T13:42:49.718Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:43:16.024Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"général","content":"+purge 3"}
+{"time":"2025-12-17T13:43:16.548Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:43:47.786Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help"}
+{"time":"2025-12-17T13:43:48.440Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:43:52.388Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"général","content":"+purge 2"}
+{"time":"2025-12-17T13:43:52.808Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:45:42.898Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"général","content":"+purge 3"}
+{"time":"2025-12-17T13:45:43.941Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:47:51.533Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T13:47:52.660Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T13:47:59.210Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"général","content":"+purge 1"}
+{"time":"2025-12-17T13:47:59.751Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:48:06.977Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"général","content":"+purge 3"}
+{"time":"2025-12-17T13:48:07.568Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:49:39.914Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T13:49:41.030Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T13:49:48.941Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"général","content":"+purge 3"}
+{"time":"2025-12-17T13:49:50.519Z","type":"ERROR","message":"Erreur sur \"purge\": Invalid Form Body\nmessage_reference[MESSAGE_REFERENCE_UNKNOWN_MESSAGE]: Unknown message","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:51:00.593Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T13:51:01.764Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T13:51:10.356Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"général","content":"+purge 30"}
+{"time":"2025-12-17T13:51:11.370Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T13:51:23.900Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"général","content":"+purge 20"}
+{"time":"2025-12-17T13:51:24.936Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:16:07.213Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T14:16:08.537Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T14:16:19.792Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help"}
+{"time":"2025-12-17T14:16:20.416Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:16:55.616Z","type":"COMMAND","message":"Commande \"autounarchive\" exécutée","user":"deleted_user_562","channel":"général","content":"+autounarchive"}
+{"time":"2025-12-17T14:16:55.991Z","type":"SUCCESS","message":"Commande \"autounarchive\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:17:04.745Z","type":"COMMAND","message":"Commande \"autounarchive\" exécutée","user":"deleted_user_562","channel":"général","content":"+autounarchive on"}
+{"time":"2025-12-17T14:17:05.040Z","type":"SUCCESS","message":"Commande \"autounarchive\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:18:23.464Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T14:18:24.839Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T14:18:32.796Z","type":"COMMAND","message":"Commande \"autounarchive\" exécutée","user":"deleted_user_562","channel":"général","content":"+autounarchive on"}
+{"time":"2025-12-17T14:18:33.450Z","type":"SUCCESS","message":"Commande \"autounarchive\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:18:59.050Z","type":"COMMAND","message":"Commande \"noarchive\" exécutée","user":"deleted_user_562","channel":"général","content":"+noarchive 1450848146291818617"}
+{"time":"2025-12-17T14:18:59.540Z","type":"SUCCESS","message":"Commande \"noarchive\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:22:35.683Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T14:22:37.139Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T14:24:16.620Z","type":"COMMAND","message":"Commande \"noarchive\" exécutée","user":"deleted_user_562","channel":"général","content":"+noarchive 1450848146291818617"}
+{"time":"2025-12-17T14:24:17.099Z","type":"SUCCESS","message":"Commande \"noarchive\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:24:18.869Z","type":"COMMAND","message":"Commande \"noarchive\" exécutée","user":"deleted_user_562","channel":"général","content":"+noarchive 1450848146291818617"}
+{"time":"2025-12-17T14:24:19.350Z","type":"SUCCESS","message":"Commande \"noarchive\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:24:32.576Z","type":"COMMAND","message":"Commande \"autounarchive\" exécutée","user":"deleted_user_562","channel":"général","content":"+autounarchive on"}
+{"time":"2025-12-17T14:24:33.038Z","type":"SUCCESS","message":"Commande \"autounarchive\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:36:23.102Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T14:36:24.453Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T14:36:45.484Z","type":"COMMAND","message":"Commande \"purge\" exécutée","user":"deleted_user_562","channel":"général","content":"+purge 5"}
+{"time":"2025-12-17T14:36:46.427Z","type":"SUCCESS","message":"Commande \"purge\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:36:54.378Z","type":"COMMAND","message":"Commande \"noarchive\" exécutée","user":"deleted_user_562","channel":"général","content":"+noarchive 1450848146291818617"}
+{"time":"2025-12-17T14:36:54.705Z","type":"SUCCESS","message":"Commande \"noarchive\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:37:21.318Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T14:37:22.245Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T14:37:41.267Z","type":"COMMAND","message":"Commande \"allowarchive\" exécutée","user":"deleted_user_562","channel":"général","content":"+allowarchive 1450848146291818617"}
+{"time":"2025-12-17T14:37:41.841Z","type":"SUCCESS","message":"Commande \"allowarchive\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:37:49.176Z","type":"COMMAND","message":"Commande \"autounarchive\" exécutée","user":"deleted_user_562","channel":"général","content":"+autounarchive off"}
+{"time":"2025-12-17T14:37:49.604Z","type":"SUCCESS","message":"Commande \"autounarchive\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:38:12.514Z","type":"COMMAND","message":"Commande \"noarchive\" exécutée","user":"deleted_user_562","channel":"général","content":"+noarchive 1450848146291818617"}
+{"time":"2025-12-17T14:38:13.130Z","type":"SUCCESS","message":"Commande \"noarchive\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:39:33.708Z","type":"COMMAND","message":"Commande \"allowarchive\" exécutée","user":"deleted_user_562","channel":"général","content":"+allowarchive 1450848146291818617"}
+{"time":"2025-12-17T14:39:34.449Z","type":"SUCCESS","message":"Commande \"allowarchive\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:39:39.979Z","type":"COMMAND","message":"Commande \"autounarchive\" exécutée","user":"deleted_user_562","channel":"général","content":"+autounarchive on"}
+{"time":"2025-12-17T14:39:40.477Z","type":"SUCCESS","message":"Commande \"autounarchive\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:40:59.452Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T14:41:01.016Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T14:41:04.563Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help"}
+{"time":"2025-12-17T14:41:05.039Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:45:01.782Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T14:45:03.018Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T14:45:06.578Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help"}
+{"time":"2025-12-17T14:45:06.979Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:45:42.257Z","type":"INFO","message":"Redémarrage du bot Discord..."}
+{"time":"2025-12-17T14:45:42.258Z","type":"INFO","message":"Arrêt du bot Discord..."}
+{"time":"2025-12-17T14:45:42.258Z","type":"SUCCESS","message":"Bot Discord déconnecté"}
+{"time":"2025-12-17T14:45:43.263Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T14:45:43.857Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T14:45:43.865Z","type":"SUCCESS","message":"Bot redémarré depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T14:46:46.818Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help autounarchive"}
+{"time":"2025-12-17T14:46:47.410Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:50:23.319Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T14:50:24.541Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T14:50:42.826Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help autounarchive"}
+{"time":"2025-12-17T14:50:43.494Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T14:51:18.002Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help purge"}
+{"time":"2025-12-17T14:51:19.088Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T15:02:19.587Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T15:02:20.833Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T15:02:39.456Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help"}
+{"time":"2025-12-17T15:02:39.941Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T15:03:11.595Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help giveaway"}
+{"time":"2025-12-17T15:03:12.038Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T15:03:46.151Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help autounarchive"}
+{"time":"2025-12-17T15:03:46.813Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T15:04:07.054Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help noarchive"}
+{"time":"2025-12-17T15:04:07.625Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T15:06:07.233Z","type":"INFO","message":"Redémarrage du bot Discord..."}
+{"time":"2025-12-17T15:06:07.234Z","type":"INFO","message":"Arrêt du bot Discord..."}
+{"time":"2025-12-17T15:06:07.235Z","type":"SUCCESS","message":"Bot Discord déconnecté"}
+{"time":"2025-12-17T15:06:08.239Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T15:06:08.955Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T15:06:08.956Z","type":"SUCCESS","message":"Bot redémarré depuis l'interface web","user":"::ffff:127.0.0.1"}
+{"time":"2025-12-17T15:06:14.301Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help noarchive"}
+{"time":"2025-12-17T15:06:14.894Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T15:06:23.524Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help owner"}
+{"time":"2025-12-17T15:06:24.109Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T15:06:34.297Z","type":"COMMAND","message":"Commande \"help\" exécutée","user":"deleted_user_562","channel":"général","content":"+help ping"}
+{"time":"2025-12-17T15:06:34.747Z","type":"SUCCESS","message":"Commande \"help\" terminée","user":"deleted_user_562","channel":"général"}
+{"time":"2025-12-17T17:24:01.187Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T17:24:02.532Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T17:46:05.630Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T17:46:07.006Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T17:47:12.807Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T17:47:14.102Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T17:48:56.146Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T17:48:57.639Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T18:08:40.852Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T18:08:42.284Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T18:24:28.118Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T18:24:29.801Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T18:33:04.308Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T18:33:05.811Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T18:41:33.669Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T18:41:34.836Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-17T18:50:33.393Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-17T18:50:34.705Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T17:16:56.052Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T17:16:57.304Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T17:19:21.890Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T17:19:23.214Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T17:20:51.991Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T17:20:53.747Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T17:26:55.035Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T17:26:56.317Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T17:32:20.242Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T17:32:22.323Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T17:38:29.752Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T17:38:31.046Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T17:43:16.802Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T17:43:18.185Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T17:48:57.893Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T17:48:59.390Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T18:09:45.547Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T18:09:46.684Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T18:12:14.968Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T18:12:16.066Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T18:13:45.390Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T18:13:46.632Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T20:48:59.812Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T20:49:01.128Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T21:21:15.388Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T21:21:17.414Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T21:23:52.259Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T21:23:53.504Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T21:24:56.425Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T21:24:57.498Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T21:26:16.003Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T21:26:17.209Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T21:27:38.690Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T21:27:39.634Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T21:28:01.187Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T21:28:02.248Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T21:28:29.878Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T21:28:31.298Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T21:30:44.033Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T21:30:45.129Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-19T21:39:31.850Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-19T21:39:33.213Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-20T09:44:07.018Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-20T09:44:11.257Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-20T09:56:47.523Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-20T09:56:48.578Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}
+{"time":"2025-12-20T09:59:47.378Z","type":"INFO","message":"Démarrage du bot Discord..."}
+{"time":"2025-12-20T09:59:48.624Z","type":"SUCCESS","message":"Bot Discord connecté avec succès"}

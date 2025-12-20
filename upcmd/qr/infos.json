@@ -1,0 +1,12 @@
+{
+  "name": "qr",
+  "description": "Génère un QR code à partir d'un texte ou d'un lien.",
+  "category": "utils",
+  "usage": "+qr [texte]",
+  "examples": [
+    "+qr https://discord.gg/votreserveur",
+    "+qr Mon texte secret",
+    "+qr https://github.com"
+  ],
+  "details": "Génère un QR code scannable depuis n'importe quel texte ou URL.\n\n**Paramètres :**\n• `texte` : Le texte ou lien à encoder\n\n**Utilisation :**\nLe bot génère une image PNG que vous pouvez scanner avec votre téléphone."
+}

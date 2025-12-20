@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AxonBot - Tableau de bord</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Favicon (theme-aware SVG) -->
+  <link rel="icon" type="image/svg+xml" href="/favicons/1light.svg" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="/favicons/1dark.svg" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/svg+xml" href="/favicons/1dark.svg">
+  <script>
+    function updateFavicon() {
+      const favicon = document.getElementById('favicon');
+      const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      favicon.href = isDark ? '/favicons/1dark.png?t=12192025' : '/favicons/1light.png?t=12192025';
+    }
+    updateFavicon();
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
+  </script>
+</head>
+<body>
+  <div class="container">
+    <nav class="nav-menu">
+      <a href="/" class="nav-item active">🏠 Dashboard</a>
+      <a href="/giveaways-page" class="nav-item">🎉 Giveaways</a>
+    </nav>
+
+    <h1>⚡ AxonBot Dashboard</h1>
+    
+    <div class="control-panel">
+      <h2>🎮 Contrôle du Bot</h2>
+      <div class="control-buttons">
+        <button id="btn-start" class="btn btn-start">
+          <span>▶</span>
+          <span>Démarrer</span>
+        </button>
+        <button id="btn-stop" class="btn btn-stop">
+          <span>⏹</span>
+          <span>Arrêter</span>
+        </button>
+        <button id="btn-restart" class="btn btn-restart">
+          <span>🔄</span>
+          <span>Redémarrer</span>
+        </button>
+        <div id="bot-status" class="status-badge">
+          <span>⏳</span>
+          <span>Chargement...</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="drop-zones">
+      <div class="drop-zone" id="downcmd-zone">
+        <h2>🔴 Commandes désactivées</h2>
+        <ul id="downcmd-list" class="command-list">
+          <% downcmd.forEach(cmd => { %>
+            <li class="command-item" draggable="true" data-command="<%= cmd %>">
+              <%= cmd %>
+            </li>
+          <% }); %>
+        </ul>
+      </div>
+      <div class="drop-zone" id="upcmd-zone">
+        <h2>🟢 Commandes actives</h2>
+        <ul id="upcmd-list" class="command-list">
+          <% upcmd.forEach(cmd => { %>
+            <li class="command-item" draggable="true" data-command="<%= cmd %>">
+              <%= cmd %>
+            </li>
+          <% }); %>
+        </ul>
+      </div>
+    </div>
+
+    <div class="table-section">
+      <h2>📋 Toutes les commandes</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Description</th>
+            <th>Catégorie</th>
+            <th>Statut</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% allCommands.forEach(cmd => { %>
+            <tr>
+              <td><%= cmd.name %></td>
+              <td><%= cmd.description %></td>
+              <td><%= cmd.category %></td>
+              <td><%= cmd.status %></td>
+            </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="console-section">
+      <div class="console-header">
+        <span>📟</span>
+        <span>Console AxonBot</span>
+      </div>
+      <div id="console">
+        <div id="logs-list"></div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="/js/script.js"></script>
+</body>
+</html>

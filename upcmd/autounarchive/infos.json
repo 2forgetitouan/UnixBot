@@ -1,0 +1,12 @@
+{
+  "name": "autounarchive",
+  "description": "Active ou désactive la réouverture automatique des threads sur tout le serveur",
+  "category": "admin",
+  "admin": true,
+  "usage": "+autounarchive <on|off>",
+  "examples": [
+    "+autounarchive on",
+    "+autounarchive off"
+  ],
+  "details": "Quand activé, tout thread archivé sur le serveur est rouvert automatiquement."
+}

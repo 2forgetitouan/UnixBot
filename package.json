@@ -1,0 +1,23 @@
+{
+  "name": "axonbot",
+  "version": "1.2.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vulcain",
+  "license": "GPL v3",
+  "description": "Un bot Discord Open-Source, modulaire et simple en JavaScript.",
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "qrcode": "^1.5.4"
+  }
+}

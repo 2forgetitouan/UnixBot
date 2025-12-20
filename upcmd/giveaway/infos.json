@@ -1,0 +1,13 @@
+{
+  "name": "giveaway",
+  "description": "Crée un giveaway avec participants et durée",
+  "category": "événements",
+  "admin": true,
+  "usage": "+giveaway [lot] [nombre_gagnants] [durée]",
+  "examples": [
+    "+giveaway \"Nitro Discord\" 1 1j",
+    "+giveaway \"Boost Serveur\" 2 12h",
+    "+giveaway \"Rôle VIP\" 1 30m"
+  ],
+  "details": "Crée un giveaway interactif avec bouton de participation.\n\n**Paramètres :**\n• `lot` : Le prix à gagner (guillemets si espaces)\n• `nombre_gagnants` : Nombre de gagnants (1-99)\n• `durée` : Format 1j (jours), 1h (heures), 1m (minutes)"
+}

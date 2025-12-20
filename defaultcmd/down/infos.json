@@ -1,0 +1,11 @@
+{
+  "name": "down",
+  "description": "Désactive une commande.",
+  "category": "admin",
+  "admin": true,
+  "usage": "+down",
+  "examples": [
+    "+down"
+  ],
+  "details": "Désactive toutes les commandes personnalisées (upcmd).\n\n**Effet :**\nDéplace toutes les commandes de `upcmd/` vers `downcmd/` pour les désactiver."
+}

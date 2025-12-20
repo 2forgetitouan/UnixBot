@@ -1,0 +1,19 @@
+{
+  "active": [],
+  "last": {
+    "messageId": "1450843143434928189",
+    "channelId": "1414197508648734722",
+    "guildId": "1414197507927572554",
+    "prize": "3 em giveaway modifier",
+    "winnersCount": 1,
+    "endTime": 1765978500000,
+    "participants": [
+      "1295430635485270098"
+    ],
+    "ended": true,
+    "organizerId": "1295430635485270098",
+    "winners": [
+      "1295430635485270098"
+    ]
+  }
+}

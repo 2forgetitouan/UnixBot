@@ -1,0 +1,10 @@
+{
+  "name": "allowarchive",
+  "description": "Réautorise l'archivage des threads pour un salon forum",
+  "category": "admin",
+  "usage": "+allowarchive <forumId>",
+  "examples": [
+    "+allowarchive 123456789012345678"
+  ],
+  "details": "Retire un salon forum de la liste protégée : les threads pourront de nouveau s'archiver normalement."
+}
