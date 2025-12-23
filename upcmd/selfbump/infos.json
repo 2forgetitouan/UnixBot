@@ -1,0 +1,11 @@
+{
+  "name": "selfbump",
+  "description": "Active l'auto-bump pour un salon Discord",
+  "category": "utilitaire",
+  "admin": true,
+  "usage": "/selfbump [Salon_ID]",
+  "examples": [
+    "/selfbump 1234567890"
+  ],
+  "details": "Active l'auto-bump automatique pour le salon spécifié. Le self-bot va automatiquement bump le serveur via Disboard et D-Invite à intervalles réguliers."
+}

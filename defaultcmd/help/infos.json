@@ -1,0 +1,12 @@
+{
+  "name": "help",
+  "description": "Affiche la liste des commandes disponibles.",
+  "category": "infos",
+  "usage": "/help [commande]",
+  "examples": [
+    "/help",
+    "/help giveaway",
+    "/help ping"
+  ],
+  "details": "Affiche l'aide générale ou détaillée pour une commande spécifique.\n\n**Sans argument :**\nAffiche toutes les commandes groupées par catégorie\n\n**Avec [commande] :**\nAffiche les détails d'utilisation, exemples et paramètres de la commande."
+}

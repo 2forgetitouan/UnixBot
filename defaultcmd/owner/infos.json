@@ -1,0 +1,12 @@
+{
+  "name": "owner",
+  "description": "Ajoute un utilisateur dans la liste owners.",
+  "category": "admin",
+  "superuser": true,
+  "usage": "/owner [@utilisateur]",
+  "examples": [
+    "/owner @Utilisateur",
+    "/owner @Admin"
+  ],
+  "details": "Ajoute un utilisateur à la liste des owners (administrateurs) du bot.\n\n**Paramètres :**\n• `@utilisateur` : Mention de l'utilisateur à promouvoir\n\n**Note :** Les owners ont accès aux commandes admin."
+}

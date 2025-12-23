@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - UnixBot</title>
+  <link rel="icon" type="image/svg+xml" href="/favicons/1light.svg" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="/favicons/1dark.svg" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .admin-login-container {
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 2rem;
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .admin-login-container h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: var(--text-primary);
+    }
+
+    .admin-login-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .admin-login-form input {
+      padding: 0.75rem;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: 1rem;
+    }
+
+    .admin-login-form button {
+      padding: 0.75rem;
+      background: #5865f2;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .admin-login-form button:hover {
+      background: #4752c4;
+    }
+
+    .error-message {
+      padding: 0.75rem;
+      background: #ed4245;
+      color: white;
+      border-radius: 6px;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="admin-login-container">
+    <h1>🔒 Accès Admin</h1>
+    <% if (error) { %>
+      <div class="error-message"><%= error %></div>
+    <% } %>
+    <form class="admin-login-form" method="POST" action="/admin/login">
+      <input type="password" name="password" placeholder="Mot de passe admin" required>
+      <button type="submit">Se connecter</button>
+    </form>
+  </div>
+</body>
+</html>

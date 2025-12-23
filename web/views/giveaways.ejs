@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UnixBot - Gestion des Giveaways</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Favicon (theme-aware SVG) -->
+  <link rel="icon" type="image/svg+xml" href="/favicons/1light.svg" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="/favicons/1dark.svg" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/svg+xml" href="/favicons/1dark.svg">
+  <script>
+    function updateFavicon() {
+      const favicon = document.getElementById('favicon');
+      const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      favicon.href = isDark ? '/favicons/1dark.png?t=12192025' : '/favicons/1light.png?t=12192025';
+    }
+    updateFavicon();
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
+  </script>
+</head>
+<body>
+  <div class="container">
+    <nav class="nav-menu">
+      <a href="/" class="nav-item">🏠 Dashboard</a>
+      <a href="/giveaways-page" class="nav-item active">🎉 Giveaways</a>
+    </nav>
+
+    <h1>🎊 Gestion des Giveaways</h1>
+    
+    <div class="giveaways-section">
+      <h2>📋 Giveaways actifs</h2>
+      <div id="giveaways-list" class="giveaways-grid">
+        <div class="loading">Chargement...</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/giveaways.js"></script>
+</body>
+</html>

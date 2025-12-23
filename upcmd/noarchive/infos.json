@@ -1,0 +1,11 @@
+{
+  "name": "noarchive",
+  "description": "Empêche les threads d'un salon forum de s'archiver",
+  "category": "admin",
+  "admin": true,
+  "usage": "/noarchive <forumId>",
+  "examples": [
+    "/noarchive 123456789012345678"
+  ],
+  "details": "Ajoute un salon forum à la liste protégée : dès qu'un thread y est archivé, le bot le rouvre automatiquement."
+}

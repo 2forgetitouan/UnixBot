@@ -1,0 +1,10 @@
+{
+  "name": "botinfo",
+  "description": "Affiche toutes les informations détaillées du bot",
+  "category": "infos",
+  "usage": "/botinfo",
+  "examples": [
+    "/botinfo"
+  ],
+  "details": "Affiche des informations détaillées sur le bot."
+}

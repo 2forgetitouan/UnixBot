@@ -1,0 +1,10 @@
+{
+  "name": "bumpstats",
+  "description": "Affiche les statistiques de l'auto-bump",
+  "category": "utilitaire",
+  "usage": "/bumpstats",
+  "examples": [
+    "/bumpstats"
+  ],
+  "details": "Affiche les statistiques détaillées de l'auto-bump : nombre de bumps effectués, prochains bumps prévus, status des bots et permet d'activer/désactiver l'auto-bump."
+}

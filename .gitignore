@@ -1,0 +1,27 @@
+# Configuration sensible
+config/config.json
+config/superuser.json
+config/owners.json
+
+# Sessions persistantes
+sessions/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

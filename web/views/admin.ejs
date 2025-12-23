@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel - UnixBot</title>
+  <link rel="icon" type="image/svg+xml" href="/favicons/1light.svg" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="/favicons/1dark.svg" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .admin-container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 2rem;
+    }
+
+    .admin-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid var(--border-color);
+    }
+
+    .admin-header h1 {
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logout-btn {
+      padding: 0.5rem 1rem;
+      background: #ed4245;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .logout-btn:hover {
+      background: #c73739;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .stat-card {
+      padding: 1.5rem;
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .stat-card h3 {
+      margin: 0 0 0.5rem 0;
+      color: var(--text-secondary);
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .sessions-table {
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .sessions-table h2 {
+      padding: 1.5rem;
+      margin: 0;
+      border-bottom: 2px solid var(--border-color);
+      color: var(--text-primary);
+    }
+
+    .sessions-list {
+      max-height: 500px;
+      overflow-y: auto;
+    }
+
+    .session-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid var(--border-color);
+      transition: background 0.2s;
+    }
+
+    .session-item:hover {
+      background: var(--bg-hover);
+    }
+
+    .session-item:last-child {
+      border-bottom: none;
+    }
+
+    .session-user {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex: 1;
+    }
+
+    .session-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #5865f2;
+    }
+
+    .session-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .session-username {
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .session-time {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+    }
+
+    .disconnect-btn {
+      padding: 0.5rem 1rem;
+      background: #ed4245;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .disconnect-btn:hover {
+      background: #c73739;
+      transform: translateY(-1px);
+    }
+
+    .disconnect-btn:active {
+      transform: translateY(0);
+    }
+
+    .empty-state {
+      padding: 3rem;
+      text-align: center;
+      color: var(--text-secondary);
+      font-size: 1.125rem;
+    }
+
+    .back-btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: #5865f2;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background 0.2s;
+      margin-right: 1rem;
+    }
+
+    .back-btn:hover {
+      background: #4752c4;
+    }
+  </style>
+</head>
+<body>
+  <div class="admin-container">
+    <div class="admin-header">
+      <h1>
+        <span>🛡️</span>
+        Panel Admin
+      </h1>
+      <div>
+        <a href="/" class="back-btn">← Retour</a>
+        <form method="POST" action="/admin/logout" style="display: inline;">
+          <button type="submit" class="logout-btn">Se déconnecter</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <h3>Sessions actives</h3>
+        <div class="value"><%= sessions.length %></div>
+      </div>
+      <div class="stat-card">
+        <h3>Utilisateur admin</h3>
+        <div class="value" style="font-size: 1.25rem;"><%= user.username %></div>
+      </div>
+    </div>
+
+    <div class="sessions-table">
+      <h2>👥 Utilisateurs connectés</h2>
+      <div class="sessions-list">
+        <% if (sessions.length === 0) { %>
+          <div class="empty-state">
+            Aucune session active
+          </div>
+        <% } else { %>
+          <% sessions.forEach(session => { %>
+            <div class="session-item">
+              <div class="session-user">
+                <% if (session.avatar) { %>
+                  <img 
+                    class="session-avatar" 
+                    src="https://cdn.discordapp.com/avatars/<%= session.id %>/<%= session.avatar %>.png" 
+                    alt="Avatar"
+                  >
+                <% } else { %>
+                  <div class="session-avatar"></div>
+                <% } %>
+                <div class="session-info">
+                  <div class="session-username">
+                    <%= session.username %><% if (session.discriminator && session.discriminator !== '0') { %>#<%= session.discriminator %><% } %>
+                  </div>
+                  <div class="session-time">
+                    Connecté depuis <%= session.loginTime ? new Date(session.loginTime).toLocaleString('fr-FR') : 'inconnu' %>
+                  </div>
+                </div>
+              </div>
+              <button 
+                class="disconnect-btn" 
+                onclick="disconnectUser('<%= session.sid %>', '<%= session.username %>')"
+              >
+                Déconnecter
+              </button>
+            </div>
+          <% }); %>
+        <% } %>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    async function disconnectUser(sid, username) {
+      if (!confirm(`Voulez-vous vraiment déconnecter ${username} ?`)) {
+        return;
+      }
+
+      try {
+        const response = await fetch(`/admin/disconnect/${sid}`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+          alert(`${username} a été déconnecté avec succès`);
+          location.reload();
+        } else {
+          alert(`Erreur: ${data.message}`);
+        }
+      } catch (error) {
+        alert('Erreur lors de la déconnexion');
+        console.error(error);
+      }
+    }
+  </script>
+</body>
+</html>

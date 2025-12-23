@@ -1,0 +1,121 @@
+{
+  "history": [
+    {
+      "timestamp": 1766437651212,
+      "ping": 0,
+      "status": "starting"
+    },
+    {
+      "timestamp": 1766437651212,
+      "ping": -1,
+      "status": "offline"
+    },
+    {
+      "timestamp": 1766437681214,
+      "ping": -1,
+      "status": "offline"
+    },
+    {
+      "timestamp": 1766437711214,
+      "ping": 155,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766437741215,
+      "ping": 147,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766437771217,
+      "ping": 144,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766437801218,
+      "ping": 144,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766437831219,
+      "ping": 149,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766437861219,
+      "ping": 137,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766437891219,
+      "ping": 151,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766437921220,
+      "ping": 151,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766437951219,
+      "ping": 138,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766437981219,
+      "ping": 153,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766438011220,
+      "ping": 153,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766438041220,
+      "ping": 146,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766438071221,
+      "ping": 148,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766438101221,
+      "ping": 147,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766438131220,
+      "ping": 147,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766438161222,
+      "ping": 152,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766438191223,
+      "ping": 150,
+      "status": "online"
+    },
+    {
+      "timestamp": 1766487033492,
+      "ping": 0,
+      "status": "starting"
+    },
+    {
+      "timestamp": 1766487033492,
+      "ping": -1,
+      "status": "offline"
+    },
+    {
+      "timestamp": 1766487055862,
+      "ping": -1,
+      "status": "offline"
+    }
+  ],
+  "startTime": 1766437651211,
+  "lastUpdate": 1766487055862
+}

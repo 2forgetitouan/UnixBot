@@ -1,0 +1,10 @@
+{
+  "name": "uptime",
+  "description": "Affiche le temps de fonctionnement et le temps de latence du bot avec un graphique visuel",
+  "category": "infos",
+  "usage": "/uptime",
+  "examples": [
+    "/uptime"
+  ],
+  "details": "Affiche le temps pendant lequel le bot est en ligne, avec un graphique visuel."
+}

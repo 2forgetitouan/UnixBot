@@ -1,0 +1,12 @@
+{
+  "name": "randomgif",
+  "description": "Envoie un GIF aléatoire",
+  "category": "fun",
+  "usage": "/randomgif [thème]",
+  "examples": [
+    "/randomgif",
+    "/randomgif cat",
+    "/randomgif happy"
+  ],
+  "details": "Envoie un GIF complètement aléatoire ou basé sur un thème spécifique. Utilise l'API Tenor."
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion - UnixBot</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Favicon (theme-aware SVG) -->
+  <link rel="icon" type="image/svg+xml" href="/favicons/1light.svg" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="/favicons/1dark.svg" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/svg+xml" href="/favicons/1dark.svg">
+  <style>
+    body {
+      background: radial-gradient(circle at 20% 20%, rgba(99,102,241,0.08), transparent 25%),
+                  radial-gradient(circle at 80% 0%, rgba(56,189,248,0.06), transparent 25%),
+                  #0b1021;
+      color: #e5e7eb;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    .login-card {
+      width: 100%;
+      max-width: 460px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(99, 102, 241, 0.25);
+      border-radius: 14px;
+      padding: 26px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+      backdrop-filter: blur(6px);
+    }
+    .login-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .login-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin: 0;
+      color: #e5e7eb;
+    }
+    .login-sub {
+      margin: 0 0 16px;
+      color: #cbd5e1;
+      line-height: 1.5;
+    }
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(120deg, #5865f2, #4752c4);
+      color: #f8fafc;
+      border: none;
+      border-radius: 10px;
+      padding: 12px 16px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 10px 30px rgba(88, 101, 242, 0.35);
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+    .cta:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 40px rgba(88, 101, 242, 0.45);
+    }
+    .cta:active { transform: translateY(0); }
+    .muted {
+      margin-top: 14px;
+      color: #94a3b8;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+    .contact {
+      margin-top: 10px;
+      color: #a5b4fc;
+      font-weight: 600;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(99, 102, 241, 0.12);
+      border: 1px solid rgba(99, 102, 241, 0.35);
+      border-radius: 999px;
+      padding: 6px 12px;
+      color: #e0e7ff;
+      font-weight: 600;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-card">
+    <div class="login-header">
+      <img src="/favicons/logo.png" alt="UnixBot" width="64" height="64" style="border-radius:8px;">
+      <h1 class="login-title">Connexion requise</h1>
+    </div>
+    <p class="login-sub">Pour accéder au tableau de bord UnixBot, connectez-vous avec Discord. Seuls les membres autorisés peuvent s'y rendre.</p>
+    <a class="cta" href="/auth/discord">
+      <span>🔑</span>
+      <span>Se connecter avec Discord</span>
+    </a>
+    <div class="muted">
+      En cas de problème, veuillez contacter :
+      <div class="chip">
+        <img src="/favicons/discord.svg" alt="Discord" width="20" height="20" style="vertical-align: middle; margin-right: 6px;">
+        deleted_user_562
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
