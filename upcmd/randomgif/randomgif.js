@@ -2,7 +2,7 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const https = require('https');
 
 // API Key Tenor (clé publique de démo)
-const TENOR_API_KEY = 'AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ';
+const TENOR_API_KEY = '';
 
 // Thèmes populaires pour l'autocomplétion
 const POPULAR_THEMES = [
