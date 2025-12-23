@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 const { SlashCommandBuilder, PermissionsBitField } = require('discord.js');
+=======
+const { PermissionsBitField } = require('discord.js');
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
 const manager = require('../../utils/noarchiveManager');
 
 module.exports = {
   name: 'allowarchive',
   description: 'Réautorise l\'archivage des threads pour un salon forum',
   category: 'moderation',
+<<<<<<< HEAD
   data: new SlashCommandBuilder()
     .setName('allowarchive')
     .setDescription('Réautorise l\'archivage des threads pour un salon forum')
@@ -13,6 +18,8 @@ module.exports = {
         .setDescription('ID du salon forum')
         .setRequired(true)
     ),
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   options: [],
 
   execute: async (message, args, client) => {
@@ -34,6 +41,7 @@ module.exports = {
       console.error('Erreur commande allowarchive:', error);
       await message.reply('❌ Erreur lors de la configuration allowarchive.');
     }
+<<<<<<< HEAD
   },
   executeSlash: async (interaction) => {
     try {
@@ -52,5 +60,7 @@ module.exports = {
       console.error('Erreur commande allowarchive:', error);
       await interaction.reply({ content: '❌ Erreur lors de la configuration allowarchive.', ephemeral: true });
     }
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   }
 };

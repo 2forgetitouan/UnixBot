@@ -162,12 +162,18 @@ document.addEventListener('DOMContentLoaded', () => {
     item.draggable = true;
     item.addEventListener('dragstart', (e) => {
       draggedItem = item;
+<<<<<<< HEAD
       item.classList.add('dragging');
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
       e.dataTransfer.setData('text/plain', item.dataset.command);
       setTimeout(() => item.style.display = 'none', 0);
     });
     item.addEventListener('dragend', () => {
+<<<<<<< HEAD
       item.classList.remove('dragging');
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
       setTimeout(() => {
         if (draggedItem) draggedItem.style.display = 'block';
       }, 0);

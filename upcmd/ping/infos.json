@@ -2,9 +2,15 @@
   "name": "ping",
   "description": "Affiche la latence du bot",
   "category": "infos",
+<<<<<<< HEAD
   "usage": "/ping",
   "examples": [
     "/ping"
+=======
+  "usage": "+ping",
+  "examples": [
+    "+ping"
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   ],
   "details": "Affiche la latence WebSocket et le temps de réponse du bot. Utile pour vérifier la connexion."
 }

@@ -3,9 +3,17 @@
   "description": "Active une commande.",
   "category": "admin",
   "admin": true,
+<<<<<<< HEAD
   "usage": "/up [commande]",
   "examples": [
     "/up ping"
   ],
   "details": "Active une commande personnalisée (upcmd).\n\n**Effet :**\nDéplace la commande de `downcmd/` vers `upcmd/` pour l'activer."
+=======
+  "usage": "+up",
+  "examples": [
+    "+up"
+  ],
+  "details": "Active toutes les commandes personnalisées (upcmd).\n\n**Effet :**\nDéplace toutes les commandes de `downcmd/` vers `upcmd/` pour les activer."
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
 }

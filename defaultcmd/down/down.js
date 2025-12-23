@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 const { SlashCommandBuilder } = require('discord.js');
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
 const fs = require('fs');
 const path = require('path');
 
@@ -6,6 +9,7 @@ module.exports = {
   name: 'down',
   description: 'Désactive une commande en la déplaçant dans le dossier "downcmd".',
   category: 'admin',
+<<<<<<< HEAD
   data: new SlashCommandBuilder()
     .setName('down')
     .setDescription('Désactive une commande en la déplaçant dans le dossier "downcmd"')
@@ -14,6 +18,8 @@ module.exports = {
         .setDescription('Nom de la commande à désactiver')
         .setRequired(true)
     ),
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   options: [
     {
       name: 'commande',
@@ -22,7 +28,11 @@ module.exports = {
       required: true
     }
   ],
+<<<<<<< HEAD
   execute: async (message, args, client) => {
+=======
+  execute: async (interaction, args, client) => {
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
     const commandName = args[0];
     const baseDir = path.join(__dirname, '../../');
     const fromDir = path.join(baseDir, 'upcmd', commandName);
@@ -43,6 +53,7 @@ module.exports = {
       }
       fs.renameSync(fromDir, toDir);
       fs.writeFileSync(path.join(baseDir, 'config/reload_flag'), 'reload');
+<<<<<<< HEAD
       message.reply(`La commande "${commandName}" a été désactivée avec succès !`);
     } catch (error) {
       console.error('Erreur lors de la désactivation de la commande :', error);
@@ -70,6 +81,8 @@ module.exports = {
       }
       fs.renameSync(fromDir, toDir);
       fs.writeFileSync(path.join(baseDir, 'config/reload_flag'), 'reload');
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
       interaction.reply({ content: `La commande "${commandName}" a été désactivée avec succès !`, ephemeral: true });
     } catch (error) {
       console.error('Erreur lors de la désactivation de la commande :', error);

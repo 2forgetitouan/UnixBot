@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 const { SlashCommandBuilder } = require('discord.js');
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
 const { addOwner, getOwners } = require('../../utils/isOwner');
 
 function getUsernameTag(user) {
@@ -12,7 +15,10 @@ module.exports = {
   name: 'owner',
   description: 'Ajoute un utilisateur à la liste owners.',
   category: 'admin',
+<<<<<<< HEAD
   superuser: true,
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   options: [
     {
       name: 'utilisateur',
@@ -21,6 +27,7 @@ module.exports = {
       required: true
     }
   ],
+<<<<<<< HEAD
   data: new SlashCommandBuilder()
     .setName('owner')
     .setDescription('Ajoute un utilisateur à la liste owners')
@@ -30,11 +37,15 @@ module.exports = {
         .setRequired(true)),
   
   executeSlash: async (interaction) => {
+=======
+  execute: async (interaction, args, client) => {
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
     const user = interaction.options.getUser('utilisateur');
     if (!user) return interaction.reply({ content: 'Merci de sélectionner un utilisateur.', ephemeral: true });
     const username = getUsernameTag(user);
     addOwner(username);
     interaction.reply({ content: `L'utilisateur ${user} a été ajouté à la liste des owners.\nOwners actuels : ${getOwners().join(', ')}`, ephemeral: true });
+<<<<<<< HEAD
   },
 
   execute: async (message, args, client) => {
@@ -46,5 +57,7 @@ module.exports = {
     const username = getUsernameTag(user);
     addOwner(username);
     message.reply(`L'utilisateur ${user} a été ajouté à la liste des owners.\nOwners actuels : ${getOwners().join(', ')}`);
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   }
 };

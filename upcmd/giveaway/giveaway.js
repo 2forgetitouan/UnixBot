@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
+=======
+const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
 const fs = require('fs');
 const path = require('path');
 
@@ -51,6 +55,7 @@ module.exports = {
   name: 'giveaway',
   description: 'Crée un giveaway avec participants et durée',
   category: 'événements',
+<<<<<<< HEAD
   data: new SlashCommandBuilder()
     .setName('giveaway')
     .setDescription('Crée un giveaway avec participants et durée')
@@ -70,6 +75,8 @@ module.exports = {
         .setDescription('Durée (ex: 1j, 12h, 30m)')
         .setRequired(true)
     ),
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   options: [],
 
   execute: async (message, args, client) => {
@@ -224,6 +231,7 @@ module.exports = {
       const errorMsg = await message.channel.send('❌ Une erreur est survenue lors de la création du giveaway.');
       setTimeout(() => errorMsg.delete().catch(() => {}), 10000);
     }
+<<<<<<< HEAD
   },
   executeSlash: async (interaction) => {
     try {
@@ -333,6 +341,8 @@ module.exports = {
       console.error('Erreur dans la commande giveaway:', error);
       await interaction.editReply({ content: '❌ Une erreur est survenue lors de la création du giveaway.' });
     }
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   }
 };
 

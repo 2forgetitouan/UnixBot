@@ -279,7 +279,11 @@ h2 {
   margin: 8px 0;
   padding: 12px 16px;
   border-radius: 8px;
+<<<<<<< HEAD
   cursor: grab;
+=======
+  cursor: move;
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   font-weight: 500;
   color: #e4e4e7;
   transition: all 0.2s ease;
@@ -287,9 +291,13 @@ h2 {
   font-size: 0.95em;
 }
 
+<<<<<<< HEAD
 .command-item.dragging {
   cursor: grabbing;
 }
+=======
+.command-item:hover {
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   background: rgba(99, 102, 241, 0.2);
   border-color: rgba(99, 102, 241, 0.4);
   transform: translateX(4px);

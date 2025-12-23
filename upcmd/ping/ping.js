@@ -1,12 +1,19 @@
+<<<<<<< HEAD
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+=======
+const { EmbedBuilder } = require('discord.js');
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
 
 module.exports = {
   name: 'ping',
   description: 'Affiche la latence du bot',
   category: 'infos',
+<<<<<<< HEAD
   data: new SlashCommandBuilder()
     .setName('ping')
     .setDescription('Affiche la latence du bot'),
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   options: [],
 
   execute: async (message, args, client) => {
@@ -48,7 +55,11 @@ module.exports = {
             inline: true 
           }
         )
+<<<<<<< HEAD
         .setFooter({ text: 'UnixBot - Mesure de latence' })
+=======
+        .setFooter({ text: 'AxonBot - Mesure de latence' })
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
         .setTimestamp();
 
       // Modifier le message avec l'embed
@@ -62,6 +73,7 @@ module.exports = {
         console.error('Erreur lors de la gestion d\'erreur:', e);
       }
     }
+<<<<<<< HEAD
   },
   executeSlash: async (interaction) => {
     try {
@@ -111,5 +123,7 @@ module.exports = {
         console.error('Erreur lors de la gestion d\'erreur:', e);
       }
     }
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   }
 };

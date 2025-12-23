@@ -3,11 +3,19 @@
   "description": "Supprime les derniers messages du salon.",
   "category": "admin",
   "admin": true,
+<<<<<<< HEAD
   "usage": "/purge [nombre]",
   "examples": [
     "/purge 10",
     "/purge 50",
     "/purge 100"
+=======
+  "usage": "+purge [nombre]",
+  "examples": [
+    "+purge 10",
+    "+purge 50",
+    "+purge 100"
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   ],
   "details": "Supprime un nombre spécifié de messages dans le salon actuel.\n\n**Paramètres :**\n• `nombre` : Nombre de messages à supprimer (1-100)\n\n**Note :** Les messages de plus de 14 jours ne peuvent pas être supprimés en masse par Discord."
 }

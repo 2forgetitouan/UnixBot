@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 const { SlashCommandBuilder, PermissionsBitField } = require('discord.js');
+=======
+const { PermissionsBitField } = require('discord.js');
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
 const manager = require('../../utils/noarchiveManager');
 
 module.exports = {
   name: 'autounarchive',
   description: 'Active ou désactive le réouverture auto de tous les threads du serveur',
   category: 'moderation',
+<<<<<<< HEAD
   data: new SlashCommandBuilder()
     .setName('autounarchive')
     .setDescription('Active ou désactive le réouverture auto de tous les threads du serveur')
@@ -17,6 +22,8 @@ module.exports = {
           { name: 'Désactiver', value: 'off' }
         )
     ),
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   options: [],
 
   execute: async (message, args, client) => {
@@ -40,6 +47,7 @@ module.exports = {
       console.error('Erreur commande autounarchive:', error);
       await message.reply('❌ Erreur lors du paramétrage autounarchive.');
     }
+<<<<<<< HEAD
   },
   executeSlash: async (interaction) => {
     try {
@@ -56,5 +64,7 @@ module.exports = {
       console.error('Erreur commande autounarchive:', error);
       await interaction.reply({ content: '❌ Erreur lors du paramétrage autounarchive.', ephemeral: true });
     }
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   }
 };

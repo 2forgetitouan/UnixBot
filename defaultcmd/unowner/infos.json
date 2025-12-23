@@ -3,10 +3,17 @@
   "description": "Retire un utilisateur de la liste owners.",
   "category": "admin",
   "superuser": true,
+<<<<<<< HEAD
   "usage": "/unowner [@utilisateur]",
   "examples": [
     "/unowner @Utilisateur",
     "/unowner @ExAdmin"
+=======
+  "usage": "+unowner [@utilisateur]",
+  "examples": [
+    "+unowner @Utilisateur",
+    "+unowner @ExAdmin"
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   ],
   "details": "Retire un utilisateur de la liste des owners (administrateurs) du bot.\n\n**Paramètres :**\n• `@utilisateur` : Mention de l'utilisateur à retirer\n\n**Note :** Supprime les droits d'accès aux commandes admin."
 }

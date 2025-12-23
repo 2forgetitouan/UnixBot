@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 const { SlashCommandBuilder } = require('discord.js');
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
 const QRCode = require('qrcode');
 const { AttachmentBuilder } = require('discord.js');
 
 module.exports = {
   name: 'qr',
+<<<<<<< HEAD
   description: 'Génère un QR code à partir d\'un texte ou d\'un lien.',
   category: 'utils',
   data: new SlashCommandBuilder()
@@ -14,6 +18,10 @@ module.exports = {
         .setDescription('Texte ou lien à transformer en QR code')
         .setRequired(true)
     ),
+=======
+  description: 'Génère un QR code à partir d’un texte ou d’un lien.',
+  category: 'utils',
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   options: [
     {
       name: 'texte',
@@ -22,6 +30,7 @@ module.exports = {
       required: true
     }
   ],
+<<<<<<< HEAD
   execute: async (message, args, client) => {
     const texte = args.join(' ');
     if (!texte) {
@@ -41,6 +50,10 @@ module.exports = {
   },
   executeSlash: async (interaction) => {
     const texte = interaction.options.getString('texte');
+=======
+  execute: async (interaction, args, client) => {
+    const texte = args[0];
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
     if (!texte) {
       return interaction.reply({ content: '⚠️ Un texte ou un lien est requis.', ephemeral: true });
     }

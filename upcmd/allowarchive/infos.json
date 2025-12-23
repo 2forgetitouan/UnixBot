@@ -2,9 +2,15 @@
   "name": "allowarchive",
   "description": "Réautorise l'archivage des threads pour un salon forum",
   "category": "admin",
+<<<<<<< HEAD
   "usage": "/allowarchive <forumId>",
   "examples": [
     "/allowarchive 12345678901234"
+=======
+  "usage": "+allowarchive <forumId>",
+  "examples": [
+    "+allowarchive 123456789012345678"
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   ],
   "details": "Retire un salon forum de la liste protégée : les threads pourront de nouveau s'archiver normalement."
 }

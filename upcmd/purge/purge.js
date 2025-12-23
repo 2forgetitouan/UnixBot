@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 const { SlashCommandBuilder, PermissionsBitField } = require('discord.js');
+=======
+const { PermissionsBitField } = require('discord.js');
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
 
 module.exports = {
   name: 'purge',
   description: 'Supprime les derniers messages du salon.',
   category: 'admin',
+<<<<<<< HEAD
   data: new SlashCommandBuilder()
     .setName('purge')
     .setDescription('Supprime les derniers messages du salon')
@@ -14,6 +19,8 @@ module.exports = {
         .setMinValue(1)
         .setMaxValue(100)
     ),
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   options: [],
   execute: async (message, args, client) => {
     try {
@@ -58,6 +65,7 @@ module.exports = {
       }
     }
   },
+<<<<<<< HEAD
   executeSlash: async (interaction) => {
     try {
       if (!interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) {
@@ -86,4 +94,6 @@ module.exports = {
       }
     }
   },
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
 };

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
+=======
+const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
 const fs = require('fs');
 const path = require('path');
 
@@ -6,9 +10,12 @@ module.exports = {
   name: 'reroll',
   description: 'Relance le choix des gagnants du dernier giveaway',
   category: 'événements',
+<<<<<<< HEAD
   data: new SlashCommandBuilder()
     .setName('reroll')
     .setDescription('Relance le choix des gagnants du dernier giveaway'),
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   options: [],
 
   execute: async (message, args, client) => {
@@ -114,6 +121,7 @@ module.exports = {
       const errorMsg = await message.channel.send('❌ Une erreur est survenue lors du reroll.');
       setTimeout(() => errorMsg.delete().catch(() => {}), 10000);
     }
+<<<<<<< HEAD
   },
   executeSlash: async (interaction) => {
     try {
@@ -202,5 +210,7 @@ module.exports = {
       console.error('Erreur dans la commande reroll:', error);
       await interaction.editReply({ content: '❌ Une erreur est survenue lors du reroll.' });
     }
+=======
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   }
 };

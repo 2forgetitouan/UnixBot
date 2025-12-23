@@ -1,0 +1,13 @@
+{
+  "token": "",
+  "clientId": "",
+  "prefix": "+",
+  "webPort": 3000,
+  "oauth": {
+    "clientId": "",
+    "clientSecret": "",
+    "redirectUri": "http://localhost:3000/auth/callback"
+  },
+  "sessionSecret": "",
+  "contactUserId": "" 
+}

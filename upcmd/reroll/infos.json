@@ -3,9 +3,15 @@
   "description": "Relance le choix des gagnants du dernier giveaway",
   "category": "événements",
   "admin": true,
+<<<<<<< HEAD
   "usage": "/reroll",
   "examples": [
     "/reroll"
+=======
+  "usage": "+reroll",
+  "examples": [
+    "+reroll"
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   ],
   "details": "Sélectionne de nouveaux gagnants aléatoires pour le dernier giveaway terminé.\n\n**Fonctionnement :**\n• Utilise la liste des participants du dernier giveaway\n• Sélectionne aléatoirement de nouveaux gagnants\n• Met à jour le message Discord"
 }

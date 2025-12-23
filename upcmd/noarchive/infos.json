@@ -3,9 +3,15 @@
   "description": "Empêche les threads d'un salon forum de s'archiver",
   "category": "admin",
   "admin": true,
+<<<<<<< HEAD
   "usage": "/noarchive <forumId>",
   "examples": [
     "/noarchive 123456789012345678"
+=======
+  "usage": "+noarchive <forumId>",
+  "examples": [
+    "+noarchive 123456789012345678"
+>>>>>>> a9ed35453c71da9e2250978e8dbdf3d07457c46e
   ],
   "details": "Ajoute un salon forum à la liste protégée : dès qu'un thread y est archivé, le bot le rouvre automatiquement."
 }
